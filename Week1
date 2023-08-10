@@ -14,7 +14,7 @@
 | 1. List the contents of the root directory: `theia@theia-mahamfatimak:/home/project$ ls /`<br>output:<br>`bin dev home lib32 libx32 mnt proc run srv tmp var`<br>`boot etc lib lib64 media opt root sbin sys usr` |
 | 2. Change directories to your default home directory: `theia@theia-mahamfatimak:/home/project$ cd ~`<br>output: `theia@theia-mahamfatimak:~$` |
 | 3. Verify your current working directory: `pwd`<br>output:<br>`/home/theia`<br>Hint: Use the arrow keys to scroll through your command history until you find the right command. |
-Lab 2 
+Lab 2
 | Task                                 | Command                               | Description                                              |
 |--------------------------------------|---------------------------------------|----------------------------------------------------------|
 | **Update System**                    | `sudo apt update`                    | Updates package information on the system.              |
