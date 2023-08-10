@@ -1,1 +1,16 @@
+| Lab 1 |
+| --------------------------------------- |
+| - Interact with the Linux terminal |
+| - Browse directories on a Linux filesystem using the `ls` command |
+| - Navigate directories using the `cd` command |
+| - Save time and effort by using tab completion and your command history |
 
+| An open source Integrated Development Environment (IDE) |
+| ------------------------------------------------------ |
+| Skills Network Cloud IDE (Cloud IDE based on Theia) |
+
+| Practice Exercise |
+| ------------------------------------------------------------- |
+| 1. List the contents of the root directory: `theia@theia-mahamfatimak:/home/project$ ls /`<br>output:<br>`bin dev home lib32 libx32 mnt proc run srv tmp var`<br>`boot etc lib lib64 media opt root sbin sys usr` |
+| 2. Change directories to your default home directory: `theia@theia-mahamfatimak:/home/project$ cd ~`<br>output: `theia@theia-mahamfatimak:~$` |
+| 3. Verify your current working directory: `pwd`<br>output:<br>`/home/theia`<br>Hint: Use the arrow keys to scroll through your command history until you find the right command. |
