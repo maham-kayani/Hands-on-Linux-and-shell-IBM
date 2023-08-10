@@ -8,10 +8,10 @@
 | **Get User and Group Info**            |                                                                                                 |
 | `id`                                   | uid=1000(theia) gid=1000(theia) groups=1000(theia),27(sudo),100(users)                        |
 | **View Available Disk Space**          |                                                                                                 |
-| `df`                                   | down written                                                         |
+| `df`                                   | //                                                        |
 | **View Running Processes**             |                                                                                                 |
 | `ps`                                   | PID TTY TIME CMD                                                                                |
-| `ps -e`                                | down written                                                            |
+| `ps -e`                                | //                                                          |
 | **Display Messages**                   |                                                                                                 |
 | `echo "Welcome to the linux la maham"` | Welcome to the linux la maham                                                                   |
 | **Display Date and Time**              |                                                                                                 |
