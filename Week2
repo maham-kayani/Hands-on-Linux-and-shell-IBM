@@ -33,3 +33,46 @@ man---to get the user manual for a command
 ----------------------------------------------------------------------------------------
 
 *************************some File and directory commands******************************
+
+| Command         | Description                                             |
+|-----------------|---------------------------------------------------------|
+| `pwd`           | Print the current working directory    theia@theia-mahamfatimak:/home/project$ pwd
+/home/project                |
+| `ls`            | List the contents of the current directory             |
+| `ls /bin/b*`    | List files in the `/bin` directory starting with 'b'  theia@theia-mahamfatimak:/home/project$ ls /bin |
+| `ls -la /etc` |   |files in /etc, including any hidden files, enter the
+
+
+| Command                                              | Description                                      |
+|------------------------------------------------------|--------------------------------------------------|
+| `mkdir scripts`                                      | Create a directory                              |
+| `cd scripts`                                         | Change your current working directory           |
+| `cd ..`                                              | Return to parent directory                      |
+| `touch maham.txt`                                    | Create an empty file                            |
+| `ls`                                                 | List files and directories                      |
+| `date -r maham.txt`                                  | Verify the date change   Thu Aug 10 12:18:28 EDT 2023                       |
+| `find /etc -name '*.txt'`                            | Find files in /etc with '.txt' extension        |
+| `rm -i maham.txt`                                    | Remove the file 'maham.txt' interactively       |
+| `mv maham1.txt maham2.txt`                          | Rename 'maham1.txt' to 'maham2.txt'             |
+| `ls -l /tmp`                                         | List files in /tmp directory                    |
+| `cp /tmp/maham2.txt maham3.txt`                      | Copy 'maham2.txt' to 'maham3.txt'               |
+| `cp /etc/passwd maham3.txt`                          | Copy '/etc/passwd' to 'maham3.txt'              |
+Move your copied file, report.sh, up one level in the directory tree to the parent directory. Verify your changes.
+mv report.sh ../
+ls 
+ls ../
+List the files in /etc directory in the ascending order of their access time.
+ls -ltr /etc/
+**************************Viewing and modifying file access permissions***********************
+file access and change file access
+| Description                                        | Command                  | Resulting Permissions |
+|----------------------------------------------------|--------------------------|-----------------------|
+| Initial Permissions                               |cd /home/project            -rw-r--r--  theia users 8121 Sep 28  2022 usdoi.txt
+                                                   wget https://cf-courses-data.s3.us.cloud-object-storage.
+                                                   appdomain.cloud/IBM-LX0117EN-Skills
+                                                   Network/labs/module%201/usdoi.txt
+theia@theia-mahamfatimak:/home/project$ ls -l usdoi.txt                        | -rw-r--r--            |
+| Remove Read Permission                            | `chmod -r usdoi.txt`     | --w-------            |
+| Add Read Permission                               | `chmod +r usdoi.txt`     | -rw-r--r--            |
+| Remove 'Other' Read Permission                    | `chmod o-r usdoi.txt`    | -rw-r-----            |
+
