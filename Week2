@@ -1,0 +1,83 @@
+| Command                                | Output                                                                                          |
+|----------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Display the Current User**           |                                                                                                 |
+| `whoami`                               | theia                                                                                           |
+| **Get Basic OS Information**           |                                                                                                 |
+| `uname`                                | Linux                                                                                           |
+| `uname -a`                             | Linux theia-mahamfatimak 5.4.0-155-generic #172-Ubuntu SMP Fri Jul 7 16:10:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux |
+| **Get User and Group Info**            |                                                                                                 |
+| `id`                                   | uid=1000(theia) gid=1000(theia) groups=1000(theia),27(sudo),100(users)                        |
+| **View Available Disk Space**          |                                                                                                 |
+| `df`                                   | down written                                                         |
+| **View Running Processes**             |                                                                                                 |
+| `ps`                                   | PID TTY TIME CMD                                                                                |
+| `ps -e`                                | down written                                                            |
+| **Display Messages**                   |                                                                                                 |
+| `echo "Welcome to the linux la maham"` | Welcome to the linux la maham                                                                   |
+| **Display Date and Time**              |                                                                                                 |
+| `date "+%D"`                           | 08/10/23                                                                                        |
+
+--------------------------------
+
+whoami to return your username
+uname to print the kernel name
+id to display the user and group id
+df to print available disk space
+ps to list running processes and their process id
+top to view a real-time table of processes
+echo to print given text
+date to display the current time and date
+man to get the user manual for a command
+
+
+-----------------------------------
+
+theia@theia-mahamfatimak:/home/project$ uname -aLinux theia-mahamfatimak 5.4.0-155-generic #172-Ubuntu 
+SMP Fri Jul 7 16:10:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+Kernel name
+Network node hostname
+Kernel release date
+Kernel version
+Machine hardware name
+Hardware platform
+Operating system
+theia@theia-mahamfatimak:/home/project$ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay        101986876 57160596  40406044  59% /
+tmpfs              65536        0     65536   0% /dev
+tmpfs           16361252        0  16361252   0% /sys/fs/cgroup
+/dev/vda2      101986876 57160596  40406044  59% /etc/hosts
+shm                65536        0     65536   0% /dev/shm
+tmpfs           28937804       16  28937788   1% /run/secrets/kubernetes.io/serviceaccount
+tmpfs           16361252        0  16361252   0% /proc/acpi
+tmpfs           16361252        0  16361252   0% /proc/scsi
+tmpfs           16361252        0  16361252   0% /sys/firmware
+
+View currently running processes
+theia@theia-mahamfatimak:/home/project$ ps
+   PID TTY          TIME CMD
+    92 pts/0    00:00:00 bash
+   409 pts/0    00:00:00 ps
+theia@theia-mahamfatimak:/home/project$ ps -e
+   PID TTY          TIME CMD
+     1 ?        00:00:00 sh
+     7 ?        00:00:00 entrypoint.sh
+    35 ?        00:00:00 cron
+    36 ?        00:00:01 node
+    47 ?        00:00:00 sh
+    48 ?        00:00:01 node
+    59 ?        00:00:03 node
+    70 ?        00:00:04 node
+    85 ?        00:00:00 node
+    92 pts/0    00:00:00 bash
+   309 ?        00:00:00 node
+   410 pts/0    00:00:00 ps
+Display Messages
+theia@theia-mahamfatimak:/home/project$ echo "Welcome to the linux la maham"
+Welcome to the linux la maham
+Display date and time
+theia@theia-mahamfatimak:/home/project$ date "+%D"
+08/10/23
+man -k .
+
+
