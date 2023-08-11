@@ -93,3 +93,16 @@ theia@theia-mahamfatimak:/home/project$ ls -l usdoi.txt                        |
 | cd test           | Changing directory to 'test'.                                  |
 | mkdir test_again  | Attempting to create 'test_again' directory inside 'test'.     |
 |                   | Output: Permission denied.                                     |
+**************************File content modifying and  access permissions***********************
+
+ | Command             | Description                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------|
+| `more` / `less`     | Display the content of a text file, allowing scrolling and navigation.                            |
+| `cat`               | Concatenate and display the content of one or more text files.                                    |
+| `wget`              | Command-line utility to download files from the web.                                              |
+| `wc`                | Count the number of lines, words, and characters in a text file.                                  |
+| `sort`              | Sort the lines of a text file in ascending order.                                                 |
+| `sort -r`           | Sort the lines of a text file in descending (reverse) order.                                      |
+| `uniq`              | Filter out repeated lines from a sorted text file.                                                |
+| `grep`              | Search for a specific pattern (text) in a text file.                                             |
+| `cut`               | Remove sections from each line of files (such as columns from a CSV file).                        |
