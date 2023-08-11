@@ -6,13 +6,13 @@ IDE:Skills Network Labs (SN Labs) is a virtual lab environment: by Theia
 
 This course is a comprehensive introduction to Linux commands and shell scripting, spanning over 4 weeks. It covers a wide range of topics, from operating system fundamentals to shell scripting and practical project work. The course includes both individual and collaborative assessments.
 
-## Week 1: Operating System Basics and Linux Fundamentals
+## Week 1: Introduction to Linux
 - Understanding operating systems, with a focus on Linux and Unix.
 - Learning to navigate the Linux environment.
 - Text editors: Working on the command line interface (CLI) using nano and vim, as opposed to graphical user interfaces (GUI).
 - Package managers: Managing software using package managers like apt (Debian-based) and rpm (Red Hat-based).
 
-## Week 2: Mastering Operating System Commands and File Management
+## Week 2: Introduction to Linux commands
 - Exploring essential operating system commands.
 - Managing files: Creating, copying, moving, and deleting files and directories.
 - Accessing and manipulating file content.
