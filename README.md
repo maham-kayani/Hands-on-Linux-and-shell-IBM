@@ -1,6 +1,6 @@
 # Hands-on-Linux-and-shell-IBM
 
-Skills Network Labs (SN Labs) is a virtual lab environment: by Theia
+IDE:Skills Network Labs (SN Labs) is a virtual lab environment: by Theia
 
 # Hands-on Introduction to Linux Commands and Shell Scripting
 
