@@ -72,7 +72,7 @@ file access and change file access
                                                    appdomain.cloud/IBM-LX0117EN-Skills
                                                    Network/labs/module%201/usdoi.txt
 theia@theia-mahamfatimak:/home/project$ ls -l usdoi.txt                        | -rw-r--r--            |
-| Remove Read Permission                            | `chmod -r usdoi.txt`     | --w-------            |
+| Remove Read Permission for file                            | `chmod -r usdoi.txt`     | --w-------            |
 | Add Read Permission                               | `chmod +r usdoi.txt`     | -rw-r--r--            |
 | Remove 'Other' Read Permission                    | `chmod o-r usdoi.txt`    | -rw-r-----            |
 
