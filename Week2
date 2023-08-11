@@ -106,3 +106,14 @@ theia@theia-mahamfatimak:/home/project$ ls -l usdoi.txt                        |
 | `uniq`              | Filter out repeated lines from a sorted text file.                                                |
 | `grep`              | Search for a specific pattern (text) in a text file.                                             |
 | `cut`               | Remove sections from each line of files (such as columns from a CSV file).                        |
+*********************networking****************
+| Action                               | Command/Action    | Description/Notes                                                                               |
+|--------------------------------------|-------------------|--------------------------------------------------------------------------------------------------|
+| Display hostname                     | `hostname`        | Displays the system's hostname                                                                  |
+| Display IP address                   | `hostname -i`     | Displays the system's IP address                                                                |
+| Display network interface config     | `ifconfig`        | Shows network interface configuration including IP addresses, MAC addresses, and other details |
+| Test connectivity to a host          | `ping [host/IP]`  | Initiates a continuous ping to a host or IP address; use Ctrl+C to stop, shows response stats   |
+| Transfer data from a server          | `curl [URL]`      | Use curl to access and display data from a URL                                                  |
+| Transfer and save data from a server | `curl -O [URL]`   | Use curl -O to download and save a file from a URL                                              |
+| Download file(s) from a URL          | `wget [URL]`      | Use wget to download file(s) from a URL                                                         |
+| Remove a file                        | `rm [filename]`   | Removes a specified file                                                                        |
