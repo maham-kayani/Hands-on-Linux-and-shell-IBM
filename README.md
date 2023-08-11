@@ -21,7 +21,7 @@ This course is a comprehensive introduction to Linux commands and shell scriptin
 ## Week 3: Introduction to Shell Scripting
 - Shell scripting fundamentals.
 - Shebang (interpreter directive): Understanding how scripts are executed.
-- Variables: Creating, assigning, and deleting variables within scripts.
+  
 
 ## Week 4: Practical Project, Final Project, and Assessment
 - **Practice Project**: Applying knowledge gained to solve real-world problems.
