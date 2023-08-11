@@ -76,3 +76,20 @@ theia@theia-mahamfatimak:/home/project$ ls -l usdoi.txt                        |
 | Add Read Permission                               | `chmod +r usdoi.txt`     | -rw-r--r--            |
 | Remove 'Other' Read Permission                    | `chmod o-r usdoi.txt`    | -rw-r-----            |
 
+**************************Viewing and modifying directory access permissions***********************
+
+| Command           | Output / Description                                           |
+|-------------------|------------------------------------------------------------------|
+| cd test           | Attempting to change directory to 'test'.                       |
+|                   | Output: Permission denied.                                     |
+| ls -l             | Listing the contents and permissions of the directory.          |
+|                   | Output: Showing permissions of 'test' directory.               |
+| mkdir test/test3  | Attempting to create a subdirectory 'test3' inside 'test'.     |
+|                   | Output: Permission denied.                                     |
+| chmod u+x test    | Giving the user execute permissions for 'test' directory.      |
+| chmod u-w test    | Removing write permissions from the user for 'test' directory. |
+| ls -l             | Listing the contents and permissions after permissions change. |
+|                   | Output: Showing updated permissions of 'test' directory.       |
+| cd test           | Changing directory to 'test'.                                  |
+| mkdir test_again  | Attempting to create 'test_again' directory inside 'test'.     |
+|                   | Output: Permission denied.                                     |
