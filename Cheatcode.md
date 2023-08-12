@@ -83,11 +83,11 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
      
 4. **Make the Script Executable**
    
-   - Run: `chmod +x count_lines.sh`
+   - Run: `chmod +x name.sh`
 
 5. **Run the Script**
    
-     ./name.sh 
+     - ./name.sh 
      
 
 
