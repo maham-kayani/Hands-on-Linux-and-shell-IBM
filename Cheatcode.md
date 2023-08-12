@@ -38,7 +38,7 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 - Move or rename files: `mv`
 - Create an empty file: `touch`
 - Change file permissions: `chmod`
-- Change file ownership: `chown`
+
 
 ## Content Commands
 - Display file content: `cat`
