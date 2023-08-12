@@ -3,7 +3,7 @@
 # Company
 ABC International Inc.
 
-#Problem
+## Problem
 Manual backup of encrypted password files introduces human error, lowers security, and is time-consuming.
 
 ## Task
