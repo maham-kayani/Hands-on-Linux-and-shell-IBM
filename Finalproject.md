@@ -59,9 +59,9 @@ currentTS=$(date +%s)
 backupFileName="backup-$currentTS.tar.gz"
 #echo "Backup file name: $backupFileName"
 # We're going to:
-  # 1: Go into the target directory
-  # 2: Create the backup file
-  # 3: Move the backup file to the destination directory
+   1: Go into the target directory
+   2: Create the backup file
+   3: Move the backup file to the destination directory
 
 # To make things easier, we will define some useful variables...
 
