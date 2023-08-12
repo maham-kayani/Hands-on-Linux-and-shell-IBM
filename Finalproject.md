@@ -20,12 +20,5 @@ Demonstrate advanced shell scripting skills by solving a real-world automation p
 5. Improve ability to write clear and maintainable scripts.
 6. Learn to provide code reviews and evaluate peers' technical work.
 
-# Learning Objectives
+# code
 
-1. Demonstrate proficiency in shell scripting.
-2. Implement automated file backup based on modification time.
-3. Utilize `find` command for file discovery.
-4. Apply security considerations when handling sensitive files.
-5. Schedule script execution with cron jobs.
-6. Enhance skills in writing organized and commented scripts.
-7. Evaluate and grade peers' technical submissions.
