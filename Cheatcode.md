@@ -116,3 +116,15 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 
 
 
+## Task 17 guide 
+## Step-By-Step Guide
+
+| Step | Description |
+|------|-------------|
+| 1.   | **Copy the Script:**<br>Copy the backup script (`backup.sh`) to the `/usr/local/bin/` directory using the following command:<br>`sudo cp backup.sh /usr/local/bin/` |
+| 2.   | **Test the Cron Job:**<br>Open your crontab for editing by running:<br>`crontab -e`<br>Add the following line to the crontab file to test the script every minute:<br>`*/1 * * * * /usr/local/bin/backup.sh /home/project/important-documents /home/project`<br>Save the file and exit the editor. |
+| 3.   | **Start Cron Service:**<br>If the cron service is not running, start it with:<br>`sudo service cron start` |
+| 4.   | **Check Output:**<br>Check the `/home/project` directory to see if the `.tar` files are being created. If they are, proceed to the next step. |
+| 5.   | **Schedule Daily Cron Job:**<br>Open your crontab for editing:<br>`crontab -e`<br>Add a line to schedule the backup script to run daily at a specific time (e.g., midnight):<br>`0 0 * * * /usr/local/bin/backup.sh /home/project/important-documents /home/project`<br>Save the file and exit the editor. |
+| 6.   | **View Crontab Entries:**<br>To view your current crontab entries, run:<br>`crontab -l`<br>You can take a screenshot of this output for documentation purposes. |
+| 7.   | **Stop Cron Service (if needed):**<br>Once you've verified the behavior and set up your desired cron jobs, you can stop the cron service if needed:<br>`sudo service cron stop` |
