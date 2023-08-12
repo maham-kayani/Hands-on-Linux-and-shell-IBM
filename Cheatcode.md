@@ -3,7 +3,7 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 
 # Scheduling a Cron Job with `crontab`
 1. Open a terminal window.
-- To list your current cron jobs: `crontab -e`
+- To open your current cron jobs: `crontab -e`
 2. To edit your user's crontab, type:
    This will open the default text editor (usually vi or nano) with your crontab file.
 3. In the editor, add a new line for your cron job. Each line represents a single cron job entry.
