@@ -66,3 +66,28 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 - Display network interfaces: `ifconfig` / `ip`
 - Download files from web: `wget` / `curl`
 
+# Creating and Running the `count_lines.sh` Script
+
+1. **Create a New File**
+   - Create a new file called `name.sh`.
+
+2. **Open a Text Editor** vim or nana here
+   - Open a text editor of your choice.
+   - Create a new file named `name.sh`.
+
+3. **Add Shebang and Script Content**
+   - Start the script with a shebang line (`#!/bin/bash`) to specify the shell interpreter.Bash here
+   - Add the script content.
+     ```bash
+     #!/bin/bash
+     
+4. **Make the Script Executable**
+   
+   - Run: `chmod +x count_lines.sh`
+
+5. **Run the Script**
+   
+     ./name.sh 
+     
+
+
