@@ -1,9 +1,9 @@
 # Project Scenario: Automatic Backup Script for Encrypted Password Files
 
-## Company
+# Company
 ABC International Inc.
 
-## Problem
+#Problem
 Manual backup of encrypted password files introduces human error, lowers security, and is time-consuming.
 
 ## Task
@@ -12,7 +12,7 @@ Create a script to automatically back up updated encrypted password files within
 ## Objective
 Demonstrate advanced shell scripting skills by solving a real-world automation problem.
 
-## Learning Goals
+# Learning Goals
 1. Develop practical shell scripting expertise.
 2. Enhance file manipulation and automation skills.
 3. Apply security best practices in file handling.
