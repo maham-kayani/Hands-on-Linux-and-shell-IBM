@@ -20,11 +20,11 @@ Demonstrate advanced shell scripting skills by solving a real-world automation p
 5. Improve ability to write clear and maintainable scripts.
 6. Learn to provide code reviews and evaluate peers' technical work.
 
-# code
+# Tasks
 #!/bin/bash
 
- #This checks if the number of arguments is correct
- #If the number of arguments is incorrect ( $# != 2) print error message and exit
+# This checks if the number of arguments is correct
+# If the number of arguments is incorrect ( $# != 2) print error message and exit
 if [[ $# != 2 ]]
 then
   echo "backup.sh target_directory_name destination_directory_name"
@@ -56,18 +56,18 @@ currentTS=$(date +%s)
 
 # [TASK 4]
 #Backing up the file storing and compress by tar and gw:algo of compress
-backupFileName="backup-$currentTS.tar.gz"
+backupFileName="backup-$currentTS.tar"
 #echo "Backup file name: $backupFileName"
 # We're going to:
-   1: Go into the target directory
-   2: Create the backup file
-   3: Move the backup file to the destination directory
+  # 1: Go into the target directory
+  # 2: Create the backup file
+  # 3: Move the backup file to the destination directory
 
 # To make things easier, we will define some useful variables...
 
 # [TASK 5]
 #path of current directory-currently working
-origAbsPath=$(pwd) #'pwd'
+origAbsPath=$(pwd)
 echo "Origin Path:$origAbsPath"
 # [TASK 6]
 cd  "$destinationDirectory" || exit
@@ -99,7 +99,8 @@ do
   fi
 done
 
-
+# [TASK 12]
+#tar compress archieve 
 
 # [TASK 12]
 # Create .tar archive
@@ -114,4 +115,3 @@ mv "$backupFileName" "$destAbsPath"
 
 
 # Congratulations! You completed the final project for this course!
-
