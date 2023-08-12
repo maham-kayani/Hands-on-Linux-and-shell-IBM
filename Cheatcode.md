@@ -113,6 +113,5 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 | - The `<` operator is used to direct the contents of a file to `wc` for line counting.                                                                             |
 | - Pipes (`|`) are not explicitly used in this script, but they are commonly used to send the output of one command as input to another, enabling powerful data processing. |
 
-# # --
 
 
