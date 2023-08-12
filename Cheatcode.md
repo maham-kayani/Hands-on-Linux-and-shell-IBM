@@ -19,3 +19,50 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 # Additional Commands
 - To list your current cron jobs: `crontab -l`
 - To remove your crontab: `crontab -r`
+# Common Bash Shell Commands
+
+## Informational Commands
+- Display current date/time: `date`
+- Show your username: `whoami`
+- Display hostname: `hostname`
+- Display running processes: `ps`
+- Display system statistics: `top`
+
+## File Commands
+- List files/directories: `ls`
+- Change current directory: `cd`
+- Display current directory: `pwd`
+- Create a new directory: `mkdir`
+- Remove files/directories: `rm`
+- Copy files/directories: `cp`
+- Move or rename files: `mv`
+- Create an empty file: `touch`
+- Change file permissions: `chmod`
+- Change file ownership: `chown`
+
+## Content Commands
+- Display file content: `cat`
+- Display beginning of file: `head`
+- Display end of file: `tail`
+- View content with pagination: `less` / `more`
+- Search patterns in files: `grep`
+- Sort lines in text files: `sort`
+- Display unique lines: `uniq`
+
+## Navigational Commands
+- Change current directory: `cd`
+- List files/directories: `ls`
+- Display current directory: `pwd`
+- Navigate using stack: `pushd` / `popd`
+
+## Compression Commands
+- Create/extract archives: `tar`
+- Compress/decompress using GZIP: `gzip` / `gunzip`
+- Create/extract ZIP archives: `zip` / `unzip`
+- Tar with gzip (.tar.gz): Combine archiving and compression
+
+## Networking Commands
+- Send ICMP echo requests: `ping`
+- Display network interfaces: `ifconfig` / `ip`
+- Download files from web: `wget` / `curl`
+
